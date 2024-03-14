@@ -33,7 +33,7 @@ PDF ticket generation, and email verification.
 
 ## Project Structure
 - **src/main/java**: Contains the Java source code.
-  - **com.example.demo**: Main package for the project.
+  - **com.TicketBooking**: Main package for the project.
     - **controller**: Contains controllers for handling web requests.
     - **service**: Business logic layer for handling service-related operations.
     - **repository**: Data access layer containing repository interfaces.
