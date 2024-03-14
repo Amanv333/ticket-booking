@@ -25,11 +25,13 @@ With advanced features and a modern tech stack, it offers a robust solution for 
 PDF ticket generation, and email verification.
 
 ## Technologies Used
-- **Spring Boot**: Uses Spring boot version 2.7.17 with java 8 .
-- **Spring MVC**: For handling web requests and responses.
-- **Spring Data JPA**: Provides support for easy implementation of JPA repositories.
-- **Spring Security**: For securing the application.
-- **Swagger (optional)**: For API documentation and testing.
+- **Spring Boot**: Utilizes Spring Boot version 2.7.17 with Java 8.
+- **Spring MVC**: Manages web requests and responses.
+- **Spring Data JPA**: Facilitates easy implementation of JPA repositories for database interaction.
+- **Spring Security**: Ensures application security.
+- **Swagger**: Employs Swagger for API documentation and testing.
+- **MySQL**: Utilizes MySQL as the database management system.
+
 
 ## Project Structure
 - **src/main/java**: Contains the Java source code.
