@@ -59,6 +59,7 @@ PDF ticket generation, and email verification.
 
 ## Usage
 - Access the application at `http://localhost:8080` (modify port if configured differently).
+- First register yourself and Define the role In the Database table In this There are three roles ('ROLE_ADMIN','ROLE_USER','ROLE_MANAGER')
 
 ## Documentation
 - The API documentation is provided using Swagger UI.
