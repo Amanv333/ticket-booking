@@ -59,6 +59,7 @@ PDF ticket generation, and email verification.
 
 ## Usage
 - Access the application at `http://localhost:8080` (modify port if configured differently).
+- First register yourself in the application with the given role . You can use API endpoint.
 
 ## Documentation
 - The API documentation is provided using Swagger UI.
