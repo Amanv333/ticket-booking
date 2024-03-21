@@ -33,17 +33,20 @@ public class UserRegController {
         dto.setEmail(email);
         dto.setPassword(password);
         dto.setName(name);
-//        List<String> roles = new ArrayList<>();
-//        roles.add(role);
         dto.setRoles(role);
         dto.setUsername(userName);
-        UserRegistrationDto userDto = userService.saveUser(dto, profilePicture);
-        return new ResponseEntity<>(userDto,HttpStatus.CREATED);
+        return userService.saveUser(dto, profilePicture);
+
     }
     @GetMapping("/{id}")
     public ResponseEntity<?> findUser(@PathVariable long id){
         UserRegistrationDto user = userService.getUser(id);
         return new ResponseEntity<>(user,HttpStatus.OK);
+    }
+
+    @GetMapping("/verify-otp")
+    public ResponseEntity<?> verifyOtp(@RequestParam String email,@RequestParam String otp){
+       return userService.verifyOtp(email,otp);
     }
 
 }

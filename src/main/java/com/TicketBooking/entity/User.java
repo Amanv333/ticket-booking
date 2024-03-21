@@ -29,4 +29,6 @@ public class User {
     @Lob
     @Column(name = "profile_picture", columnDefinition = "BLOB")
     private byte[] profilePicture;
+
+    private boolean emailVerified;
 }

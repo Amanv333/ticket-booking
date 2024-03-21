@@ -6,7 +6,7 @@ import com.TicketBooking.Repository.RouteRepository;
 import com.TicketBooking.Repository.SubRouteRepository;
 import com.TicketBooking.entity.Passenger;
 import com.TicketBooking.entity.Route;
-import com.TicketBooking.util.EmailService;
+import com.TicketBooking.util.EmailSendService;
 import com.TicketBooking.util.PdfService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,7 +24,7 @@ public class ReservationServiceImpl {
     @Autowired
     private PassengerRepository passengerRepository;
     @Autowired
-    private EmailService emailService;
+    private EmailSendService emailService;
     @Autowired
     private PdfService pdfService;
 
